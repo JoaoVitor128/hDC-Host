@@ -1,0 +1,47 @@
+.contactContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactContainer h2{
+    font-size: 27px;
+}
+
+.contactContainer p{
+    font-size: 22px;
+}
+
+.contactContainer .inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactContainer input:not(input[type="submit"]), .contactContainer textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #70747a;
+    margin: 5px;
+}
+
+.contactContainer textarea{
+    width: 110%;
+    height: 150px;
+}
+
+.contactContainer input[type="submit"]{
+
+    text-align: center;
+
+}
+
+.contactContainer footer{
+    color: #70747a;
+}

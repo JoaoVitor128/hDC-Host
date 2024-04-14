@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 5px;
+    background-color: #232a31;
+    height: 80px;
+}
+
+.navbarItems{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 30px;
+    padding: 30px;
+}
+
+.navbarItems a{
+    text-transform: uppercase;
+    color: #fff;
+    transition: .2s;
+}
+
+
+nav img{
+    width: 70px;
+    height: 70px;
+    margin: 0 30px;
+}

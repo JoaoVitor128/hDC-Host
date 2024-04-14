@@ -1,0 +1,66 @@
+@media screen and (max-width:896px) {
+    .section {
+        text-align: center;
+    }
+
+    nav {
+        justify-content: left;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    .cards ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plansContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .searchDomainContainer {
+        margin-top: 800px;
+    }
+
+    .contactContainer textarea {
+        width: 95%;
+    }
+
+    .mainBanner {
+        height: 500px;
+    }
+
+    .plansContainer .plan {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width:813px) {
+    .navbarItems {
+        padding: 10px;
+    }
+
+    .contactContainer textarea {
+        width: 90%;
+    }
+
+    .contactContainer .inputs input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:668px) {
+    .searchDomainContainer {
+        margin-top: 900px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .navbarItems {
+        gap: 20px;
+    }
+}

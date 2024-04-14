@@ -1,0 +1,56 @@
+.plansContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.plansContainer .plan{
+    margin: 0 20px;
+    background-color: #e8e9ea;
+    border-radius: 50px;
+}
+
+.plansContainer .plan:not(.plan.recomended){
+    height: 295px;
+}
+
+.plansContainer .plan .price{
+   background-color: #2cc76a;
+   padding: 25px 27px;
+   border-radius: 50px;
+   color: #fff;
+   margin: 0 auto -30px;
+   position: relative;
+}
+
+.plansContainer .plan .planeName{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.plansContainer .plan .liBtn{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.plansContainer .plan .recomended.liBtn{
+    background: linear-gradient(45deg, rgba(255,0,255), rgba(0,0,255));
+}
+
+.plansContainer .plan .recomended.price{
+    background: linear-gradient(45deg, rgba(255,0,255), rgba(0,0,255));
+}
+
+.plansContainer .plan .recomended.planeName::after{
+    content: "recomendado";
+    background: linear-gradient(45deg, rgba(255,0,255), rgba(0,0,255));
+    font-size: 15px;
+}
